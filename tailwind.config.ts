@@ -12,6 +12,18 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      // fontFamily:{
+      //   Plex :["IBM Plex Mono"]
+      // }
+      keyframes: {
+        fade: {
+          '0%, 50%': { opacity: '1' },
+          '25%, 75%': { opacity: '0' },
+        },
+      },
+      animation: {
+        fade: 'fade 3s infinite',
+      },
     },
   },
   plugins: [],
